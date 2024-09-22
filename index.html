@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fill the Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+        h1 {
+            font-family: "Bebas Neue";
+            font-size: 3em;
+        }
+      .container {
+        border: 1px solid rgb(60, 60, 60);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        padding: 20px;
+      }
+      .flex-container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .btn {
+        padding: 10px 30px;
+      }
+    </style>
+  </head>
+  <body class="col-sm-12">
+    <h1 align="center" class="mt-3">SURVEY FORM</h1>
+    <div class="container">
+      <form action="" method="post">
+        <div class="mt-3">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="mt-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" />
+        </div>
+        <div class="mt-3">
+          <label class="form-label">Age</label>
+          <input type="number" class="form-control" />
+        </div>
+        <div class="mt-3">
+          <label class="form-label">Which option best describe you?</label>
+          <select class="form-select">
+            <option value="0" selected>Click Here to see options</option>
+            <option value="1">Student</option>
+            <option value="2">Intern</option>
+            <option value="3">Working</option>
+            <option value="4">Looking for a Job</option>
+          </select>
+        </div>
+        <div class="mt-3">
+          <label class="form-label">Language and Frameworks known</label>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">C</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">C++</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">C#</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">Java</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">Python</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">HTML & CSS</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">JavaScript</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">React</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">Angular</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">Bootstrap</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label class="form-check-label">Angular</label>
+          </div>
+        </div>
+        <div class="mt-3">
+          <label class="form-label">Any other queries</label>
+          <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <div class="flex-container my-5">
+          <div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+          <div>
+            <button type="reset" class="btn btn-dark">Reset</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
